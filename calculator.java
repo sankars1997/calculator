@@ -25,6 +25,10 @@ public class calculator {
                 int mul=a*b;
                 System.out.println("multiplication of numbers" +"\t" +a +"and "+b + "is:"+mul);
                 break;
+            case 4:
+                int div=a/b;
+                System.out.println("division of numbers" +"\t" +a +"and "+b + "is:"+div);
+                break;
 
 
         }
