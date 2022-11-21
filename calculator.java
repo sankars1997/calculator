@@ -42,9 +42,17 @@ public class calculator {
 
                 int a3 =sc.nextInt();
                 int b3=sc.nextInt();
-                int div=a3/b3;
-                System.out.println("division of numbers" +"\t" +a3 +"and "+b3 + "is:"+div);
-                break;
+                try {
+                    int div=a3/b3;
+                    System.out.println("division of numbers" +"\t" +a3 +"and "+b3 + "is:"+div);
+                }
+                catch (ArithmeticException e)
+                {
+                    System.out.println("Can't be divided by Zero " + e);
+                }
+//                int div=a3/b3;
+//                System.out.println("division of numbers" +"\t" +a3 +"and "+b3 + "is:"+div);
+//                break;
             case 5:
                 System.exit(0);
 
