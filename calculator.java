@@ -16,6 +16,10 @@ public class calculator {
             case 1:
                 int sum=a+b;
                 System.out.println("sum of numbers" +"\t" +a +"and "+b + "is:"+sum);
+                break;
+            case 2:
+                int sub=a-b;
+                System.out.println("substraction of numbers" +"\t" +a +"and "+b + "is:"+sub);
 
         }
     }
