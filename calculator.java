@@ -20,6 +20,12 @@ public class calculator {
             case 2:
                 int sub=a-b;
                 System.out.println("substraction of numbers" +"\t" +a +"and "+b + "is:"+sub);
+                break;
+            case 3:
+                int mul=a*b;
+                System.out.println("multiplication of numbers" +"\t" +a +"and "+b + "is:"+mul);
+                break;
+
 
         }
     }
